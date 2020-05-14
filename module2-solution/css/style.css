@@ -1,73 +1,72 @@
-body {
-  	font-family: Helvetica, Arial;
-  	margin: 0;
-  	padding: 0;
+* {
+  	box-sizing: border-box;
+  	font-family: Helvetica, sans-serif;
 }
 h1 {
-  	text-align: center;
+	text-align: center;
+  	margin-bottom: 15px;
 }
 .container {
   	width: 100%;
-  	text-align: center;
+    text-align: center;
 }
 .row {
-  	position: relative;
-  	display: inline-block;
-  	margin: 10px;
-  	background-color: #a9a9a9;
-  	border: 1px solid #000;
-  	overflow: auto;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    background-color: #a9a9a9;
+    border: 1px solid #000;
+    overflow: auto;
 }
 .title {
-  	position: absolute;
-  	right: 0;
-  	top: 0;
-  	width: 100px;
-  	border-left: 1px solid #000;
-  	border-bottom: 1px solid #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 .row1 .title {
-  	background-color: #df9495;
+    background-color: #df9495;
 }
 
 .row2 .title {
-  	background-color: #cf3636;
-  	color: white;
+    background-color: #cf3636;
+    color: white;
 }
 .row3 .title {
-  	background-color: #e7d490;
+    background-color: #e7d490;
 }
-
 .row > p {
-  	margin: 40px 10px 10px 10px;
-  	text-align: left;
+    margin: 40px 10px 10px 10px;
+    text-align: left;
 }
 .title p {
-  	margin: 5px auto;
-  	font-weight: bold;
-  	font-size: 17px;
+    margin: 5px auto;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 /* Desktop devices */
 @media (min-width: 992px) {
-	.row1, .row2, .row3 {
-    	width: 30%;
+  .row1, .row2, .row3 {
+      width: 30%;
   }
 }
 
 /* Tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-	.row1, .row2 {
-    	width: 41%;
+  .row1, .row2 {
+      width: 41%;
   }
-  	.row3 {
-    	width: 85%;
+    .row3 {
+      width: 85%;
   }
 }
 
 /* Smartphones */
 @media (max-width: 767px) {
-  	.row1, .row2, .row3 {
-    	width: 80%;
+    .row1, .row2, .row3 {
+      width: 80%;
   }
 }
