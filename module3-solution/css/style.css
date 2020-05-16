@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #f7f7f7;
+}
+h1 {
+	text-align: center;
+	margin-top:15px;
+	font-size: 2em;
+}
+p {
+	text-align:center;
+	font-weight: bold;
+}
+.block {
+	text-align:left;
+	margin-top: 15px;
+	color:#000;
+	background-color: #878787;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.bg-gray {
+  background-color: #878787;
+}
+.navbar-brand {
+	font-size: 23px;
+}
+#nav-list a {
+	color:#000;
+	text-align:center;
+	border-bottom:1px solid black;
+}
+#nav-list a:hover {
+	background:#b1b1b1;
+}
